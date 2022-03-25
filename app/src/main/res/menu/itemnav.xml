@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/Home"
+    android:icon="@drawable/ic_home"
+    android:enabled="true"
+  android:title="Home"
+    tools:ignore="MenuTitle" />
+    <item
+        android:title="collocation"
+
+        android:enabled="true"
+        android:icon="@drawable/ic_widgets"
+        android:id="@+id/collocation"
+        tools:ignore="MenuTitle" />
+    <item
+        android:title="Shopping"
+
+        android:enabled="true"
+        android:icon="@drawable/ic_shopping"
+        android:id="@+id/Shopping"
+        tools:ignore="MenuTitle" />
+<item
+    android:title="Favorite"
+
+    android:enabled="true"
+    android:icon="@drawable/ic_favorite"
+    android:id="@+id/Favorite"
+    tools:ignore="MenuTitle" />
+
+
+    <item
+        android:title="Profile"
+
+        android:enabled="true"
+        android:icon="@drawable/ic_person"
+        android:id="@+id/Profile"
+        tools:ignore="MenuTitle" />
+
+
+</menu>

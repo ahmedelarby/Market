@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_products_n_store">New Products \n Store</string>
+    <string name="todo">TODO</string>
+    <string name="first_name">firstname</string>
+    <string name="last_name">lastname</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="choose_gender">choosegender</string>
+    <string name="choose_country">choose_country</string>
+    <string name="choose_city">choose_city</string>
+    <string name="do_you_have_an_account">do_you_have_an_account</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_bottom"
+    app:startDestination="@id/Home">
+
+    <fragment
+        android:id="@+id/Home"
+        android:name="com.test.myapplication.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_Home_to_detailse"
+            app:destination="@id/detailse" />
+    </fragment>
+    <fragment
+        android:id="@+id/collocation"
+        android:name="com.test.myapplication.Collction"
+        android:label="fragment_collction"
+        tools:layout="@layout/fragment_collction" />
+    <fragment
+        android:id="@+id/Shopping"
+        android:name="com.test.myapplication.Shopping"
+        android:label="fragment_shopping"
+        tools:layout="@layout/fragment_shopping" />
+    <fragment
+        android:id="@+id/Favorite"
+        android:name="com.test.myapplication.Favorite"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite" />
+    <fragment
+        android:id="@+id/Profile"
+        android:name="com.test.myapplication.Profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/detailse"
+        android:name="com.test.myapplication.Detailse"
+        android:label="fragment_detailse"
+        tools:layout="@layout/fragment_detailse" />
+</navigation>

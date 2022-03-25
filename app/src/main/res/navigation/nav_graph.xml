@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashScreen">
+
+    <fragment
+        android:id="@+id/splashScreen"
+        android:name="com.test.myapplication.Ui.Main.SplashScreen"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" >
+        <action
+            android:id="@+id/action_splashScreen_to_sliderFace"
+            app:destination="@id/sliderFace"
+            app:enterAnim="@anim/nav_default_pop_enter_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/sliderFace"
+        android:name="com.test.myapplication.Ui.Main.SliderFace"
+        android:label="fragment_slider_face"
+        tools:layout="@layout/fragment_slider_face" >
+        <action
+            android:id="@+id/action_sliderFace_to_homeProducts"
+            app:destination="@id/homeProducts" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeProducts"
+        android:name="com.test.myapplication.Ui.Main.HomeProducts"
+        android:label="fragment_home_products"
+        tools:layout="@layout/fragment_home_products" />
+</navigation>
